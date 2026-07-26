@@ -1,0 +1,114 @@
+<svg viewBox="0 0 320 200" width="640" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Noderunners bear sprinting out of jail, side view">
+  <!-- ===== broken bars (behind, bear already burst through) ===== -->
+  <g>
+    <rect x="0" y="18" width="86" height="8" rx="3" fill="#4b4b50"/>
+    <rect x="0" y="176" width="78" height="8" rx="3" fill="#4b4b50"/>
+    <rect x="12" y="8" width="8" height="184" rx="3" fill="#55555b"/>
+    <rect x="14" y="8" width="2" height="184" fill="#77777e" opacity=".7"/>
+    <rect x="36" y="8" width="8" height="184" rx="3" fill="#55555b"/>
+    <rect x="38" y="8" width="2" height="184" fill="#77777e" opacity=".7"/>
+    <!-- snapped bar: bent fragments -->
+    <polygon points="60,8 68,8 69,62 84,78 70,74 61,58" fill="#55555b"/>
+    <polygon points="56,192 64,192 63,148 76,128 62,136 57,150" fill="#4b4b50"/>
+    <!-- debris flying -->
+    <g fill="#5a5a60">
+      <polygon points="86,58 96,54 92,64"/>
+      <polygon points="92,104 102,100 98,110"/>
+      <polygon points="82,146 92,142 88,152"/>
+      <polygon points="104,76 111,72 108,82"/>
+    </g>
+  </g>
+
+  <!-- speed lines -->
+  <g stroke="#f7931a" stroke-width="4.5" stroke-linecap="round" opacity=".85">
+    <line x1="6" y1="86" x2="52" y2="86"/>
+    <line x1="0" y1="108" x2="44" y2="108"/>
+    <line x1="10" y1="130" x2="54" y2="130"/>
+  </g>
+
+  <!-- ===== laser beam from eye, forward ===== -->
+  <polygon points="252,76 320,62 320,84 254,84" fill="#ff2e2e" opacity=".75"/>
+  <polygon points="252,78 320,68 320,78 253,82" fill="#ff8a8a" opacity=".85"/>
+
+  <!-- ===== katana slung across back (mostly hidden behind body) ===== -->
+  <g>
+    <!-- grip + tsuba above the back, pointing up-left -->
+    <polygon points="118,52 96,30 102,24 124,46" fill="#6b6b74" stroke="#2a2a2e" stroke-width="1.5" stroke-linejoin="round"/>
+    <line x1="107" y1="37" x2="112" y2="32" stroke="#2a2a2e" stroke-width="1.3"/>
+    <line x1="114" y1="44" x2="119" y2="39" stroke="#2a2a2e" stroke-width="1.3"/>
+    <circle cx="99" cy="27" r="2.5" fill="#3a3a40" stroke="#2a2a2e" stroke-width="1"/>
+    <polygon points="114,58 126,46 132,52 120,64" fill="#3a3a40" stroke="#2a2a2e" stroke-width="1.5"/>
+    <!-- short blade segment before it disappears behind the body -->
+    <polygon points="122,62 138,50 150,60 134,74" fill="#c9c9d1" stroke="#2a2a2e" stroke-width="2"/>
+    <!-- blade tip emerging below the belly -->
+    <polygon points="196,140 224,158 234,168 220,164 192,148" fill="#c9c9d1" stroke="#2a2a2e" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="224,158 234,168 238,176 228,170" fill="#e8e8ee" stroke="#2a2a2e" stroke-width="1.5"/>
+  </g>
+
+  <!-- ===== bear, full stride to the right ===== -->
+  <!-- far hind leg (darker), kicked back -->
+  <path d="M95,118 C78,124 58,136 42,148 L52,158 C68,148 88,140 104,136 Z"
+        fill="#5d3d22" stroke="#2b1a0c" stroke-width="3" stroke-linejoin="round"/>
+  <!-- far front leg (darker), reaching forward -->
+  <path d="M200,112 C214,122 228,134 240,148 L228,156 C216,144 202,132 190,124 Z"
+        fill="#5d3d22" stroke="#2b1a0c" stroke-width="3" stroke-linejoin="round"/>
+  <!-- body -->
+  <path d="M85,80 C110,64 160,58 195,68 C210,72 220,80 224,90
+           C228,102 224,116 210,126 C190,138 140,142 110,136
+           C88,132 74,120 74,104 C74,94 78,86 85,80 Z"
+        fill="#7a4d29" stroke="#2b1a0c" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- rump fur tufts -->
+  <g fill="#5d3d22">
+    <path d="M84,92 l-11,2 9,6 z"/>
+    <path d="M90,120 l-10,6 11,2 z"/>
+    <path d="M140,138 l-6,8 11,-2 z"/>
+  </g>
+  <!-- near hind leg, extended back -->
+  <path d="M100,124 C84,134 66,150 54,166 L70,172 C84,158 100,146 116,138 Z"
+        fill="#7a4d29" stroke="#2b1a0c" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- near front leg, big reach forward -->
+  <path d="M205,102 C224,110 244,124 262,142 L248,152 C232,138 214,126 198,120 Z"
+        fill="#7a4d29" stroke="#2b1a0c" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- claws: hind paws -->
+  <g fill="#f3efe8" stroke="#2b1a0c" stroke-width="1.5" stroke-linejoin="round">
+    <polygon points="56,164 44,170 58,172"/>
+    <polygon points="62,170 52,178 66,177"/>
+    <polygon points="44,150 32,152 44,158"/>
+    <polygon points="48,156 38,162 52,163"/>
+  </g>
+  <!-- claws: front paws -->
+  <g fill="#f3efe8" stroke="#2b1a0c" stroke-width="1.5" stroke-linejoin="round">
+    <polygon points="258,140 272,142 260,150"/>
+    <polygon points="252,146 264,152 250,154"/>
+    <polygon points="238,146 250,152 236,154"/>
+    <polygon points="232,152 242,158 228,158"/>
+  </g>
+  <!-- head (profile, facing right) -->
+  <path d="M212,62 C226,52 246,50 260,58 C272,64 282,74 288,84
+           C291,89 290,93 285,94 L266,96
+           C262,104 254,112 244,114 C228,117 214,110 208,98
+           C203,88 204,70 212,62 Z"
+        fill="#8a5a33" stroke="#2b1a0c" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- ear -->
+  <circle cx="222" cy="56" r="12" fill="#7a4d29" stroke="#2b1a0c" stroke-width="3"/>
+  <circle cx="222" cy="56" r="5.5" fill="#4a2f18"/>
+  <!-- muzzle patch -->
+  <path d="M262,68 C274,68 284,76 289,85 C291,89 290,93 285,94 L268,95 C263,91 259,84 259,77 C259,72 260,69 262,68 Z"
+        fill="#b08454" stroke="#2b1a0c" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- angry brow -->
+  <path d="M238,66 L258,74" stroke="#2b1a0c" stroke-width="5" stroke-linecap="round"/>
+  <!-- laser eye -->
+  <circle cx="252" cy="78" r="7" fill="#ff2e2e"/>
+  <circle cx="252" cy="78" r="10" fill="none" stroke="#ff2e2e" stroke-width="1.8" opacity=".3"/>
+  <circle cx="253" cy="76.5" r="2.2" fill="#fff" opacity=".9"/>
+  <!-- nose -->
+  <ellipse cx="286" cy="82" rx="5.5" ry="4.5" fill="#1c0f06"/>
+  <!-- open jaw: mouth interior -->
+  <path d="M264,96 C270,96 280,94 285,94 C284,102 278,110 270,113 C264,115 258,113 256,108 C255,103 258,98 264,96 Z"
+        fill="#5c1010" stroke="#2b1a0c" stroke-width="3" stroke-linejoin="round"/>
+  <!-- fangs -->
+  <polygon points="266,95 271,95 268,103" fill="#fff"/>
+  <polygon points="278,94 283,94 280,101" fill="#fff"/>
+  <polygon points="262,109 267,111 266,104" fill="#fff"/>
+  <polygon points="271,112 276,112 274,106" fill="#fff"/>
+</svg>
